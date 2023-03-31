@@ -1,0 +1,62 @@
+.nav-items{
+   background-color: var(--color-primary);
+   height: 100vh;
+   @media only screen and (max-width:$bp-medium){
+      display: none;
+    }
+   @media only screen and (max-width:$bp-small){
+    
+      display: none;
+    
+   }
+ 
+  &--header{
+    font-size: .9rem;
+    height: 7rem;
+    border-bottom: 1px solid var(--color-grey-light-2);
+    padding-top: 1rem;
+    padding: 1rem;
+    font-weight: 600;
+  }
+  &--middle{
+    height: calc(100vh - 7rem);
+    overflow: scroll;
+    &::-webkit-scrollbar{
+      display: none;
+    }
+    padding: 2rem;
+    list-style: none;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+   
+    &---team,
+    &---reminders,
+    &---messenger{
+      display: flex;
+      justify-content: space-between  ;
+      align-items: center;
+      font-weight: 600;
+    }
+    &---projects,
+    &---tasks{
+      span{
+        display: flex;
+        justify-content: space-between ;
+        align-items: center;
+        font-weight: 600;
+       }
+       li{
+        display: block;
+        list-style: none;
+        font-size: 1.2rem;
+        margin-top: .6rem;
+        margin-left: 2rem;
+        &:last-child{
+          font-weight: 600;
+        }
+       }
+    }
+  }
+}

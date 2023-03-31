@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project test-5 layout</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body class="main-container">
+    <!-- popup -->
+    <div class="popup">
+      <input type="checkbox" class="popup__checkbox" id="popup-toggle" />
+      <label for="popup-toggle" class="popup__button">
+        <span class="popup__icon">&nbsp;</span>
+      </label>
+      <div class="popup__background">&nbsp;</div>
+      <div class="popup__center">
+        <div class="popup__navigation" id="nav">
+          <div class="popup__navigation__icons popup__navigation__icons__icon1">
+            <ion-icon
+              name="home-outline"
+              class="popup__navigation__icons-icon"
+            ></ion-icon>
+          </div>
+          <div class="popup__navigation__icons icon2">
+            <ion-icon
+              name="people-outline"
+              class="popup__navigation__icons-icon"
+            ></ion-icon>
+          </div>
+          <div class="popup__navigation__icons icon3">
+            <ion-icon
+              name="calendar-outline"
+              class="popup__navigation__icons-icon"
+            ></ion-icon>
+          </div>
+          <div class="popup__navigation__icons icon4">
+            <ion-icon
+              name="checkbox-outline"
+              class="popup__navigation__icons-icon"
+            ></ion-icon>
+          </div>
+          <div class="popup__navigation__icons icon5">
+            <ion-icon
+              name="alarm-outline"
+              class="popup__navigation__icons-icon"
+            ></ion-icon>
+          </div>
+          <div class="popup__navigation__icons icon6">
+            <ion-icon
+            name="chatbubble-outline"
+            class="popup__navigation__icons-icon"
+          ></ion-icon>
+       
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="sidenav">
+      <div class="sidenav__icon-top">
+        <ion-icon name="analytics-outline" class="icon-top--1"></ion-icon>
+      </div>
+     
+        <ul class="sidenav__icon-middle">
+          <li class="sidenav-li sidenav-li--1">
+            <ion-icon
+              name="home-outline"
+              class="icons icon-middle--1"
+            ></ion-icon>
+          </li>
+          <li class="sidenav-li">
+            <ion-icon
+              name="people-outline"
+              class="icons icon-middle--2"
+            ></ion-icon>
+          </li>
+          <li class="sidenav-li">
+            <ion-icon
+              name="calendar-outline"
+              class="icons icon-middle--3"
+            ></ion-icon>
+          </li>
+          <li class="sidenav-li">
+            <ion-icon
+              name="checkbox-outline"
+              class="icons icon-middle--4"
+            ></ion-icon>
+          </li>
+          <li class="sidenav-li">
+            <ion-icon
+              name="alarm-outline"
+              class="icons icon-middle--5"
+            ></ion-icon>
+          </li>
+          <li class="sidenav-li">
+            <ion-icon
+              name="chatbubble-outline"
+              class="icons icon-middle--6"
+            ></ion-icon>
+          </li>
+        </ul>
+      
+      <div class="sidenav__icon-bottom">
+        <ion-icon
+          name="help-outline"
+          class="sidenav__icon-bottom--q"
+        ></ion-icon>
+      </div>
+    </nav>
+    <div class="nav-items">
+      <div class="container container-2">
+        <div class="nav-items--header">
+          <h1 class="nav-items--header---h1">Ziferblat</h1>
+          <p class="nav-items--header---p">Teamwork & Time managment</p>
+        </div>
+        <ul class="nav-items--middle">
+          <li class="nav-items--middle---team">
+            <span>Team</span
+            ><ion-icon
+              name="chevron-forward-outline"
+              class="nav-items--middle---team-icon"
+            ></ion-icon>
+          </li>
+          <li class="nav-items--middle---projects">
+            <span
+              >Projects<ion-icon
+                name="chevron-down-outline"
+                class="nav-items--middle---team-icon"
+              ></ion-icon
+            ></span>
+            <ul>
+              <li>All projects (4)</li>
+              <li>Design system</li>
+              <li>Make unique design for customer</li>
+              <li>User flow</li>
+              <li>ux research</li>
+              <li>Add new project</li>
+            </ul>
+          </li>
+          <li class="nav-items--middle---tasks">
+            <span
+              >Tasks<ion-icon
+                name="chevron-down-outline"
+                class="nav-items--middle---team-icon"
+              ></ion-icon
+            ></span>
+            <ul>
+              <li>All tasks (3)</li>
+              <li>New (1)</li>
+              <li>in progress (1)</li>
+              <li>Done (1)</li>
+              <li>Add new task</li>
+            </ul>
+          </li>
+          <li class="nav-items--middle---reminders">
+            <span>Reminders</span
+            ><ion-icon
+              name="chevron-forward-outline"
+              class="nav-items--middle---team-icon"
+            ></ion-icon>
+          </li>
+          <li class="nav-items--middle---messenger">
+            <span>Messenger</span
+            ><ion-icon
+              name="chevron-forward-outline"
+              class="nav-items--middle---team-icon"
+            ></ion-icon>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section class="container container-3">
+      <div class="container__left">
+        <!-- order-1 -->
+        <div class="container__left-order1">
+          <h1 class="container__left-order1--h1">Today, 4 October</h1>
+          <div class="container__left-order1--search">
+            <ion-icon
+              name="search-outline"
+              class="container__left-order1--search---icon"
+            ></ion-icon>
+            <input type="text" placeholder="Searching for..." />
+          </div>
+        </div>
+        <!-- order-2 -->
+        <div class="container__left-order2">
+          <div class="container__left-order2--head">
+            <h2 class="container__left-order2--head---h2">Recent project</h2>
+            <p class="container__left-order2--head---p">View all</p>
+          </div>
+          <div class="container__left-order2--middle">
+            <!-- card-1 -->
+            <div class="cards card1">
+              <div class="card1_head">
+                <div class="card1_head-left">
+                  <div class="card1_head-left-3">+3</div>
+                  <div>
+                    <img
+                      src="img/person1.webp"
+                      class="img1"
+                      alt="person photo"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="img/person3.webp"
+                      class="img2"
+                      alt="person photo"
+                    />
+                  </div>
+                </div>
+                <div class="card1_head-right">
+                  <ion-icon
+                    class="card1_head-right--icon"
+                    name="ellipsis-vertical-outline"
+                  ></ion-icon>
+                </div>
+              </div>
+              <div class="card1_middle">
+                <h1 class="card1_middle-h1">Design system</h1>
+                <p class="card1_middle-p">Deadline:18 Octomber</p>
+              </div>
+              <div class="card1_bottom">
+                <p class="card1_bottom-time">84 hours / 40%</p>
+                <div class="card1_bottom-progress">
+                  <div class="card1_bottom-progress-in"></div>
+                </div>
+              </div>
+            </div>
+            <!-- card-2 -->
+            <div class="cards card2">
+              <div class="card1_head">
+                <div class="card1_head-left">
+                  <div class="card1_head-left-3">+2</div>
+                  <div>
+                    <img
+                      src="img/person1.webp"
+                      class="img1"
+                      alt="person photo"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="img/person3.webp"
+                      class="img2"
+                      alt="person photo"
+                    />
+                  </div>
+                </div>
+                <div class="card1_head-right">
+                  <ion-icon
+                    class="card1_head-right--icon"
+                    name="ellipsis-vertical-outline"
+                  ></ion-icon>
+                </div>
+              </div>
+              <div class="card1_middle">
+                <h1 class="card1_middle-h1">Make uniqe page for customer</h1>
+                <p class="card1_middle-p">Deadline:30 Octomber</p>
+              </div>
+              <div class="card1_bottom">
+                <p class="card1_bottom-time">108 hours / 75%</p>
+                <div class="card1_bottom-progress">
+                  <div class="card1_bottom-progress-in"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- order-3 -->
+          <div class="container__left-order3">
+            <h1 class="container__left-order3-head">Reminders</h1>
+
+            <div class="container__left-order3-box">
+              <div class="container__left-order3-box-top">
+                <div class="container__left-order3-box-top--left">
+                  <p class="container__left-order3-box-top--left---p1">
+                    Tomorrow, 16:00-18:00
+                  </p>
+                  <h2 class="container__left-order3-box-top--left---h2">
+                    Dicussion of the interm results of the project
+                  </h2>
+                </div>
+                <button class="container__left-order3-box-top--left---btn">
+                  Set reminder
+                </button>
+              </div>
+              <div class="container__left-order3-box-down">
+                <div class="div div1"></div>
+                <div class="div div2"></div>
+                <div class="div div3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container__left-shadow"></div>
+        <!-- order-3 -->
+        <!-- order-4 -->
+        <div class="container__right-order4">
+          <div class="container__right-order4--icon">
+            <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+          </div>
+          <div class="container__right-order4-content">
+            <button class="container__right-order4-content--left">
+              Add project
+            </button>
+            <div class="container__right-order4-content--right">
+              <ion-icon
+                name="notifications-outline"
+                class="container__right-order4-content--right---bell"
+              ></ion-icon>
+              <img
+                src="img/person6.jpeg"
+                class="container__right-order4-content--right---photo"
+                alt="person photo"
+              />
+              <div class="container__right-order4-content--right---div">
+                <p class="container__right-order4-content--right---p">user</p>
+                <h2 class="container__right-order4-content--right---h2">
+                  Maria
+                </h2>
+              </div>
+              <ion-icon
+                name="chevron-down-outline"
+                class="container__right-order4-content--right---down"
+              ></ion-icon>
+            </div>
+          </div>
+        </div>
+        <!-- order5 -->
+        <div class="container__right-order5">
+          <h2 class="container__right-order5--h1">Team members</h2>
+          <div class="container__right-order5--box">
+            <img src="img/person2.jpg" alt="person photo" />
+            <img src="img/person11.jpeg" alt="person photo" />
+            <div class="container__right-order5--box---h2">JR</div>
+            <img src="img/person12.jpeg" alt="person photo" />
+            <img src="img/person4.webp" alt="person photo" />
+            <div class="container__right-order5--box---add">
+              <ion-icon name="add-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="container__right-order5--cards">
+            <div class="container__right-order5--cards--card1">
+              <p class="container__right-order5--cards--card1---p">
+                Project time
+              </p>
+              <h2 class="container__right-order5--cards--card1---h2">
+                18 Hours
+              </h2>
+            </div>
+            <div class="container__right-order5--cards--card1">
+              <p class="container__right-order5--cards--card1---p">
+                Task in progress
+              </p>
+              <h2 class="container__right-order5--cards--card1---h2">2</h2>
+            </div>
+            <div class="container__right-order5--cards--card1">
+              <p class="container__right-order5--cards--card1---p">
+                Finished Task
+              </p>
+              <h2 class="container__right-order5--cards--card1---h2">16</h2>
+            </div>
+          </div>
+        </div>
+        <!-- order-6 -->
+        <div class="container__right-order6">
+          <div class="container__right-order6--head">
+            <h2 class="container__right-order6--head---h2">Daily tasks (3)</h2>
+            <p class="container__right-order6--head---p">Edit</p>
+          </div>
+          <div class="container__right-order6--card">
+            <!-- card1 -->
+            <div class="container__right-order6--card--card1">
+              <p class="container__right-order6--card--card1---p">Add new</p>
+              <div class="container__right-order6--card--card1---add">
+                <ion-icon name="add-outline"></ion-icon>
+              </div>
+            </div>
+            <!-- card2 -->
+            <div class="container__right-order6--card--card2">
+              <div class="container__right-order6--card--card2--head">
+                <div
+                  class="container__right-order6--card--card2--head---circle"
+                ></div>
+                <p class="container__right-order6--card--card2--head---p">
+                  new
+                </p>
+                <div
+                  class="container__right-order6--card--card2--head---check"
+                ></div>
+              </div>
+              <h2 class="container__right-order6--card--card2--down">
+                change color plater to more bright
+              </h2>
+            </div>
+            <!-- card3 -->
+            <div class="container__right-order6--card--card3">
+              <div class="container__right-order6--card--card3--head">
+                <div
+                  class="container__right-order6--card--card3--head---circle"
+                ></div>
+                <p class="container__right-order6--card--card3--head---p">
+                  in progress
+                </p>
+                <div
+                  class="container__right-order6--card--card3--head---check"
+                ></div>
+              </div>
+              <h2 class="container__right-order6--card--card3--down">
+                Make prototype for mobile version
+              </h2>
+            </div>
+            <!-- card4 -->
+            <div class="container__right-order6--card--card4">
+              <div class="container__right-order6--card--card4--head">
+                <div
+                  class="container__right-order6--card--card4--head---circle"
+                ></div>
+                <p class="container__right-order6--card--card4--head---p">
+                  Done
+                </p>
+                <div class="container__right-order6--card--card4--head---check">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
+              </div>
+              <h2 class="container__right-order6--card--card4--down">
+                Make fixes in homepage
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

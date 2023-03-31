@@ -1,0 +1,104 @@
+.card1,
+.card2 {
+  @media only screen and (max-width: $bp-mobile) {
+    width: 100%;
+    height: 30vh;
+  }
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-items: center;
+  gap: 3rem;
+  width: 50%;
+  height: 50vh;
+  border-radius: 30px;
+  padding: 2rem 2rem;
+  background-color: var(--color-card1);
+
+  &_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-left {
+      display: flex;
+      &-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        color: var(--color-white);
+        background-color: var(--color-black);
+        position: relative;
+        z-index: 5;
+        outline: 2px solid var(--color-card1);
+      }
+      img {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        margin-left: -1rem;
+        outline: 2px solid var(--color-card1);
+      }
+      .img1 {
+        z-index: 4;
+        position: relative;
+      }
+    }
+    &-right {
+      &--icon {
+        font-size: 3rem;
+        font-weight: 600;
+        color: black;
+      }
+    }
+  }
+  &_middle {
+    align-self: start;
+    &-h1 {
+      font-size: 1.6rem;
+    }
+    &-p {
+      font-size: 1rem;
+      font-weight: 300;
+    }
+  }
+  &_bottom {
+    &-time {
+      font-size: 1.1rem;
+    }
+    &-progress {
+      width: 100%;
+      height: 0.5rem;
+      border-radius: 50px;
+      background-color: var(--color-grey-light-2);
+      &-in {
+        width: 40%;
+        height: 0.5rem;
+
+        background-color: black;
+
+        border-radius: 50px;
+      }
+    }
+  }
+}
+.card2 {
+  background-color: var(--color-card2);
+  .card1_head-left-3 {
+    color: var(--color-black);
+    background-color: var(--color-card2);
+    position: relative;
+    z-index: 5;
+    font-weight: 600;
+    outline: 2px solid var(--color-black);
+  }
+  .card1_head-left {
+    img {
+      outline: 2px solid var(--color-card2);
+    }
+  }
+  .card1_bottom-progress-in {
+    width: 75%;
+  }
+}

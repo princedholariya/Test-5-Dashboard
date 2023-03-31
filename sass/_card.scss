@@ -1,0 +1,43 @@
+.popup__navigation {
+    
+  @include center2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s;
+  gap: 1rem;
+
+  &__icons {
+    height: 6rem;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s;
+    cursor: pointer;
+
+    &__icon1 &-icon {
+      color: $color-white;
+    }
+    &__icon1 {
+      background-color: $color-black;
+    }
+
+    &:hover {
+      background-color: $color-black;
+      color: $color-white;
+    }
+
+    &:hover &-icon {
+      color: $color-white;
+    }
+
+    &-icon {
+      font-size: 3rem;
+      color: $color-dark-grey;
+      color: $color-dark-grey;
+    }
+  }
+}
