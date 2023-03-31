@@ -667,6 +667,7 @@ body {
           font-size: 2rem; }
       .container__right-order6--card--card2, .container__right-order6--card--card3 {
         box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+        height: 20vh;
         display: flex;
         flex-direction: column;
         gap: 1rem;
@@ -694,6 +695,7 @@ body {
         .container__right-order6--card--card2--down, .container__right-order6--card--card3--down {
           font-size: 1.4rem; }
       .container__right-order6--card--card4 {
+        height: 20vh;
         box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
         color: var(--color-white);
         display: flex;
@@ -737,7 +739,7 @@ body {
   .popup__checkbox {
     display: none; }
   .popup__button {
-    background-color: #FCE5BC;
+    background-color: #ffc078;
     height: 7rem;
     width: 7rem;
     border-radius: 50%;
@@ -759,7 +761,7 @@ body {
     transition: transform  .8s; }
   .popup__center {
     height: 100vh;
-    background-image: radial-gradient(#eebefa, #f3d9fa);
+    background-image: linear-gradient(to bottom, #ffec99, #fff4e6);
     position: fixed;
     top: 0;
     left: 0;
@@ -771,7 +773,7 @@ body {
     transform: scale(80); }
   .popup__checkbox:checked ~ .popup__center {
     opacity: 1;
-    width: 50%; }
+    width: 28%; }
   .popup__icon {
     position: relative;
     margin-top: 3.5rem; }

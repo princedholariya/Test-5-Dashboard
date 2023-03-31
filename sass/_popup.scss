@@ -9,7 +9,7 @@
      display: none;
   }
   &__button{
-    background-color: $color-dull-blue;
+    background-color: #ffc078;
     height: 7rem;
     width: 7rem;
     border-radius: 50%;
@@ -35,7 +35,7 @@
   }
   &__center{
     height: 100vh;
-    background-image: radial-gradient(#eebefa,#f3d9fa);
+    background-image: linear-gradient(to bottom,#ffec99,#fff4e6);
 
     position: fixed;
     top: 0;
@@ -54,7 +54,7 @@
   }
   &__checkbox:checked ~ &__center{
     opacity: 1;
-    width: 50%;
+    width: 28%;
    
   }
  
